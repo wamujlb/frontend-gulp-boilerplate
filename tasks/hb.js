@@ -1,8 +1,6 @@
-// ********* //
-// ********* Compile Handlebars templates with JSON to HTML ********* //
-// ********* //
-
-'use strict';
+/*
+ * Compile Handlebars templates with JSON to HTML
+ */
 
 // ********* load required plugins with '$. = gulp-*'
 const $ = require('gulp-load-plugins')();
@@ -34,7 +32,3 @@ module.exports = function(options){
     };
 
 };
-
-
-
-

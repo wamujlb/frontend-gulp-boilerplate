@@ -1,13 +1,6 @@
-'use strict';
-
 // ********* load Gulp required tasks
 const gulp = require('gulp');
-const combine = require('stream-combiner2').obj;
 const path = require('path');
-const webpack = require('webpack-stream');
-const named = require('vinyl-named');
-const gulplog = require('gulplog');
-const $ = require('gulp-load-plugins')();
 
 // ********* check "isDevelopment" say gulp not make some pipes // command for using   NODE_ENV=production gulp sass
 const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == "development";
@@ -23,13 +16,11 @@ function requireTask(taskName, path, options) {
     })
 }
 
-// ********* webpack
-gulp.task('webpack', function() {
-    return gulp.src('frontend/js/*.js')
-        .pipe(webpack( require('./webpack.config.js') ))
-        .pipe(gulp.dest('public/js'));
+// ********* Webpack task
+requireTask('webpack', './tasks/webpack', {
+    src: 'frontend/js/main.js',
+    dst: 'public/js/'
 });
-
 
 // ********* Sass task
 requireTask('sass', './tasks/sass', {
@@ -72,7 +63,7 @@ requireTask('assets', './tasks/assets', {
 
 // ********* svg-sprite task
 requireTask('svgSprite', './tasks/svgSprite', {
-    src: 'frontend/files/icons/**/*.svg',
+    src: 'frontend/assets/files/icons/**/*.svg',
     dst: 'public/css'
 });
 

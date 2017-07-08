@@ -1,8 +1,6 @@
-// ********* //
-// ********* Clean public directory ********* //
-// ********* //
-
-'use strict';
+/*
+ * Clean public directory
+ */
 
 const del = require('del');
 

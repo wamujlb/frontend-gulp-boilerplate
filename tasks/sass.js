@@ -1,8 +1,6 @@
-// ********* //
-// ********* SASS ********* //
-// ********* //
-
-'use strict';
+/*
+ * SASS
+ */
 
 const gulp = require('gulp');
 const combine = require('stream-combiner2').obj;

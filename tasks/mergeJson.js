@@ -1,6 +1,6 @@
-// ********* //
-// ********* Merger all JSON templates into one ********* //
-// ********* //
+/*
+ * Merger all JSON templates into one
+ */
 
 const gulp = require('gulp');
 const merge = require('gulp-merge-json');

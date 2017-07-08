@@ -1,8 +1,7 @@
-// ********* //
-// ********* JS Lint ********* //
-// ********* //
+/*
+ * JS linter
+ */
 
-'use strict';
 
 // ********* load required plugins with '$. = gulp-*' / automatic load required plugins
 const $ = require('gulp-load-plugins')();

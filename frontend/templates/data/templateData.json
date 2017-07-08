@@ -1,10 +1,4 @@
 {
-	"component": [
-		"svg-cart",
-		"svg-cart_header",
-		"svg-close",
-		"svg-commerce"
-	],
 	"main": {
 		"charset": "utf-8",
 		"robots": "robots",

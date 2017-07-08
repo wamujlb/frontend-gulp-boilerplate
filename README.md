@@ -9,16 +9,17 @@ This is a work in progress. Feel free to contribute.
 ## Install
 ### Requirements
 
-Node (use brew or install it from [here](http://nodejs.org/download/))
+Node (use brew or install it from [here](http://nodejs.org/))
 
 ```bash
 brew install node
 ```
 
-Gulp ([Getting started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started))
+Gulp ([Getting started](http://gulpjs.com/))
 
 ```bash
-npm install -g gulpjs/gulp-cli#4.0
+npm install gulp-cli -g
+npm install gulp -D
 ```
 
 ### Clone this repository

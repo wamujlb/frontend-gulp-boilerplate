@@ -1,8 +1,6 @@
-// ********* //
-// ********* Create SVG Sprite ********* //
-// ********* //
-
-'use strict';
+/*
+ * svgSprite task
+ */
 
 // ********* load required plugins with '$. = gulp-*'
 const $ = require('gulp-load-plugins')();

@@ -1,8 +1,6 @@
-// ********* //
-// ********* Copy assets folder to public ********* //
-// ********* //
-
-'use strict';
+/*
+ * Copy assets folder to public
+ */
 
 const gulp = require('gulp');
 const del = require('del');
