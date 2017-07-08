@@ -1,0 +1,46 @@
+%svg-common {
+	background: url("svgSprite.svg") no-repeat;
+}
+
+.svg-cart {
+	@extend %svg-common;
+	background-position: 0 0;
+	width: 40px;
+	height: 38px;
+}
+
+.svg-cart_header {
+	@extend %svg-common;
+	background-position: 0 25.333333333333332%;
+	width: 36px;
+	height: 35px;
+}
+
+.svg-close {
+	@extend %svg-common;
+	background-position: 0 43.19526627218935%;
+	width: 16px;
+	height: 16px;
+}
+
+.svg-commerce {
+	@extend %svg-common;
+	background-position: 0 56.32911392405063%;
+	width: 40px;
+	height: 27px;
+}
+
+.svg-list {
+	@extend %svg-common;
+	background-position: 0 74.35897435897436%;
+	width: 40px;
+	height: 29px;
+}
+
+.svg-search {
+	@extend %svg-common;
+	background-position: 0 100%;
+	width: 40px;
+	height: 40px;
+}
+

@@ -1,0 +1,21 @@
+{
+	"component": [
+		"svg-cart",
+		"svg-cart_header",
+		"svg-close",
+		"svg-commerce"
+	],
+	"main": {
+		"charset": "utf-8",
+		"robots": "robots",
+		"keywords": "Your Keywords",
+		"title": "Your Title",
+		"description": "Your Description",
+		"author": "Author name",
+		"favicon": "./img/favicon.ico",
+		"css": "./css/",
+		"js": "./js/",
+		"img": "./img/",
+		"fonts": "./fonts/"
+	}
+}
